@@ -495,7 +495,8 @@ function updatePositions() {
   var items = document.getElementsByClassName('mover');
 
   var top = document.body.scrollTop / 1250;
-  var phase;
+
+  
 
   for (var i = 0; i < items.length; i++) {
     // document.body.scrollTop is no longer supported in Chrome.
